@@ -1,0 +1,52 @@
+# Python caches/build output
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local env/secrets
+.env
+.env.*
+!.env.example
+
+# Local Codex/agent workspace metadata
+.agents/
+.codex/
+
+# Node/Remotion/build output
+node_modules/
+dist/
+build/
+out/
+.remotion/
+.cache/
+
+# Local datasets and generated benchmark output
+tmp_samples/
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.feather
+benchmark*.json
+
+# Non-code workspace material for this repo
+pitch/
+hackaton_test.ipynb
+
+# Logs, OS, editor files
+*.log
+.DS_Store
+.vscode/
+.idea/
